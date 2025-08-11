@@ -30,11 +30,17 @@ const AboutCard = () => {
   return (
     <>
       {cardInfo.map((item, index) => (
-        <div key={index} className="border border-frame-5 p-3 flex gap-3 ">
-          <div>{item.icon}</div>
+        <div
+          key={index}
+          className="border border-frame-1/15 dark:border-frame-9/15 p-4 flex gap-3 bg-frame-7/50 dark:bg-frame-3/50 rounded-xl"
+        >
+          <div className="w-10 h-10 bg-frame-7 dark:bg-frame-3 text-frame-2 dark:text-frame-8 shadow-md p-2 rounded-xs flex items-center justify-center">
+            <span className="text-xl">{item.icon}</span>
+          </div>
+
           <div>
-            <h3>{item.skill}</h3>
-            <p>{item.info}</p>
+            <h3 className="text-lg font-medium text-frame-1 dark:text-frame-9">{item.skill}</h3>
+            <p className="text-sm text-frame-3 dark:text-frame-7">{item.info}</p>
           </div>
         </div>
       ))}
