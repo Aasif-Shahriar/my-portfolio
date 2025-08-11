@@ -1,28 +1,38 @@
-[  {
-    "projectImg": "https://i.ibb.co/ThpZnXf/plantcare.png",
-    "projectType": "CRUD Application",
-    "projectTitle": "Plant Care Tracker",
-    "projectInfo": "A simple MERN CRUD app to track and manage plant care routines. Users can add, edit, delete, and view plant details with theme support and responsive design.",
-    "techStack": ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS", "DaisyUI"],
-    "liveUrl": "https://plant-care-tracker.web.app",
-    "sourceCode": "https://github.com/asifazaddev/plant-care-tracker"
-  },
-    {
-    "projectImg": "https://i.ibb.co/gdR8gs9/edu-learn.png",
-    "projectType": "Online Course Management",
-    "projectTitle": "Edu Learn - Course Platform",
-    "projectInfo": "An e-learning platform where users can browse courses, enroll, and view details. Admins can manage course listings and students. Implements seat limit, dynamic dashboards, and Firebase-based secure login.",
-    "techStack": ["MongoDB", "Express.js", "React.js", "Node.js", "Firebase", "JWT", "Tailwind CSS", "React Router"],
-    "liveUrl": "https://edu-learn-app.web.app",
-    "sourceCode": "https://github.com/asifazaddev/edu-learn"
-  },
-  {
-    "projectImg": "https://i.ibb.co/3spbYVv/thinkhub.png",
-    "projectType": "Full-Stack Forum Application",
-    "projectTitle": "ThinkHub - Developer Forum",
-    "projectInfo": "A Reddit/Dev.to inspired MERN forum for developers to share ideas, ask questions, and collaborate. Features include posts, comments, voting, reports, membership, admin dashboard, and JWT-secured authentication.",
-    "techStack": ["MongoDB", "Express.js", "React.js", "Node.js", "Firebase", "JWT", "Tailwind CSS", "TanStack Query"],
-    "liveUrl": "https://thinkhub-dev.web.app",
-    "sourceCode": "https://github.com/asifazaddev/thinkhub"
-  }
+[  
+{
+"projectImg": "https://i.postimg.cc/x1yr4XWT/project1.png",
+"projectType": "Full-Stack Forum Application",
+"projectTitle": "ThinkHub - Developer Forum",
+"projectInfo": "A Reddit/Dev.to inspired MERN forum for developers to share ideas, ask questions, and collaborate. Features include posts, comments, voting, reports, membership, admin dashboard, and JWT-secured authentication.",
+"techStack": ["MongoDB", "Express.js", "React.js", "Node.js", "Firebase", "JWT", "Tailwind CSS", "TanStack Query"],
+"liveUrl": "https://think-hub.netlify.app",
+"sourceCode": "https://github.com/Aasif-Shahriar/think-hub-client"
+},
+{
+"projectImg": "https://i.postimg.cc/gj8dcNB3/project2.png",
+"projectType": "Online Course Management",
+"projectTitle": "Edu Learn - Course Platform",
+"projectInfo": "An e-learning platform where users can browse courses, enroll, and view details. Admins can manage course listings and students. Implements seat limit, dynamic dashboards, and Firebase-based secure login.",
+"techStack": ["MongoDB", "Express.js", "React.js", "Node.js", "Firebase", "JWT", "Tailwind CSS", "React Router"],
+"liveUrl": "https://edu-learn-jwt.netlify.app",
+"sourceCode": "https://github.com/Aasif-Shahriar/edu-learn-client"
+}, 
+{
+  "projectImg": "https://i.postimg.cc/6QqX49mW/project3.png",
+  "projectType": "React Web Application",
+  "projectTitle": "AluWish",
+  "projectInfo": "AluWish is a MERN-based wishlist and gift-tracking application that allows users to create, share, and manage their wishlist items. It supports user authentication, image uploads, category filters, and responsive UI for seamless use across devices.",
+  "techStack": ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS", "Firebase Auth"],
+  "liveUrl": "https://alu-wish.netlify.app",
+  "sourceCode": "https://github.com/Aasif-Shahriar/alu-wish-client"
+},
+{
+"projectImg": "https://i.postimg.cc/NfxqN9hG/project4.png",
+"projectType": "CRUD Application",
+"projectTitle": "Plant Care Tracker",
+"projectInfo": "A simple MERN CRUD app to track and manage plant care routines. Users can add, edit, delete, and view plant details with theme support and responsive design.",
+"techStack": ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS", "DaisyUI"],
+"liveUrl": "https://plant-care-tracker-client.netlify.app",
+"sourceCode": "https://github.com/Aasif-Shahriar/plant-care-tracker-client"
+}
 ]
