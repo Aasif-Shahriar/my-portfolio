@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const ProjectCard = () => {
   const [projects, setProjects] = useState([]);
-  console.log(projects);
+  // console.log(projects);
   useEffect(() => {
     axios
       .get("/projectsData.json")

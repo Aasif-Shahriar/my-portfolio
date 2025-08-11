@@ -1,67 +1,67 @@
 [
-{
-"icon": "SiHtml5",
-"skill": "HTML",
-"color": "#E34F26"
-},
-{
-"icon": "SiTailwindcss",
-"skill": "Tailwind CSS",
-"color": "#38B2AC"
-},
-{
-"icon": "SiJavascript",
-"skill": "JavaScript",
-"color": "#F7DF1E"
-},
-{
-"icon": "SiReact",
-"skill": "React",
-"color": "#61DAFB"
-},
-{
-"icon": "SiFirebase",
-"skill": "Firebase",
-"color": "#FFCA28"
-},
-{
-"icon": "SiNodedotjs",
-"skill": "Node.js",
-"color": "#339933"
-},
-{
-"icon": "SiExpress",
-"skill": "Express",
-"color": "#000000"
-},
-{
-"icon": "SiMongodb",
-"skill": "MongoDB",
-"color": "#47A248"
-},
-{
-"icon": "SiAxios",
-"skill": "Axios",
-"color": "#5A29E4"
-},
-{
-"icon": "SiTanstackquery",
-"skill": "TanStack Query",
-"color": "#FF4154"
-},
-{
-"icon": "SiGithub",
-"skill": "GitHub",
-"color": "#181717"
-},
-{
-"icon": "SiFramer",
-"skill": "Framer Motion",
-"color": "#0055FF"
-},
-{
-"icon": "SiReacthookform",
-"skill": "React Hook Form",
-"color": "#EC5990"
-}
+  {
+    "icon": "SiHtml5",
+    "skill": "HTML",
+    "color": "#E34F26"
+  },
+  {
+    "icon": "SiTailwindcss",
+    "skill": "Tailwind CSS",
+    "color": "#38B2AC"
+  },
+  {
+    "icon": "SiJavascript",
+    "skill": "JavaScript",
+    "color": "#F7DF1E"
+  },
+  {
+    "icon": "SiReact",
+    "skill": "React",
+    "color": "#61DAFB"
+  },
+  {
+    "icon": "SiFirebase",
+    "skill": "Firebase",
+    "color": "#FFCA28"
+  },
+  {
+    "icon": "SiNodedotjs",
+    "skill": "Node.js",
+    "color": "#339933"
+  },
+  {
+    "icon": "SiExpress",
+    "skill": "Express",
+    "color": "#000000"
+  },
+  {
+    "icon": "SiMongodb",
+    "skill": "MongoDB",
+    "color": "#47A248"
+  },
+  {
+    "icon": "SiAxios",
+    "skill": "Axios",
+    "color": "#5A29E4"
+  },
+  {
+    "icon": "SiReactquery",
+    "skill": "TanStack Query",
+    "color": "#FF4154"
+  },
+  {
+    "icon": "SiGithub",
+    "skill": "GitHub",
+    "color": "#181717"
+  },
+  {
+    "icon": "SiFramer",
+    "skill": "Framer Motion",
+    "color": "#0055FF"
+  },
+  {
+    "icon": "SiReacthookform",
+    "skill": "React Hook Form",
+    "color": "#EC5990"
+  }
 ]
