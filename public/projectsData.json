@@ -1,0 +1,28 @@
+[  {
+    "projectImg": "https://i.ibb.co/ThpZnXf/plantcare.png",
+    "projectType": "CRUD Application",
+    "projectTitle": "Plant Care Tracker",
+    "projectInfo": "A simple MERN CRUD app to track and manage plant care routines. Users can add, edit, delete, and view plant details with theme support and responsive design.",
+    "techStack": ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS", "DaisyUI"],
+    "liveUrl": "https://plant-care-tracker.web.app",
+    "sourceCode": "https://github.com/asifazaddev/plant-care-tracker"
+  },
+    {
+    "projectImg": "https://i.ibb.co/gdR8gs9/edu-learn.png",
+    "projectType": "Online Course Management",
+    "projectTitle": "Edu Learn - Course Platform",
+    "projectInfo": "An e-learning platform where users can browse courses, enroll, and view details. Admins can manage course listings and students. Implements seat limit, dynamic dashboards, and Firebase-based secure login.",
+    "techStack": ["MongoDB", "Express.js", "React.js", "Node.js", "Firebase", "JWT", "Tailwind CSS", "React Router"],
+    "liveUrl": "https://edu-learn-app.web.app",
+    "sourceCode": "https://github.com/asifazaddev/edu-learn"
+  },
+  {
+    "projectImg": "https://i.ibb.co/3spbYVv/thinkhub.png",
+    "projectType": "Full-Stack Forum Application",
+    "projectTitle": "ThinkHub - Developer Forum",
+    "projectInfo": "A Reddit/Dev.to inspired MERN forum for developers to share ideas, ask questions, and collaborate. Features include posts, comments, voting, reports, membership, admin dashboard, and JWT-secured authentication.",
+    "techStack": ["MongoDB", "Express.js", "React.js", "Node.js", "Firebase", "JWT", "Tailwind CSS", "TanStack Query"],
+    "liveUrl": "https://thinkhub-dev.web.app",
+    "sourceCode": "https://github.com/asifazaddev/thinkhub"
+  }
+]

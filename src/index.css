@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;500;600;700&display=swap");
+
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-frame-1: #212529;
+  --color-frame-2: #343a40;
+  --color-frame-3: #495057;
+  --color-frame-4: #6c757d;
+  --color-frame-5: #adb5bd;
+  --color-frame-6: #ced4da;
+  --color-frame-7: #dee2e6;
+  --color-frame-8: #e9ecef;
+  --color-frame-9: #f8f9fa;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.section-styles {
+  @apply min-h-[calc(100vh-64px)] max-w-[1440px] mx-auto px-4;
+}
+
+/* .custom-nav-links {
+  @apply text-lg font-medium  text-frame-5 hover:text-frame-9 cursor-pointer transition  duration-300;
+} */
+
