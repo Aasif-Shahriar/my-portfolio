@@ -18,10 +18,11 @@
 
 body {
   font-family: "Source Sans 3", sans-serif;
+  overflow-x: hidden;
 }
 
 .section-styles {
-  @apply min-h-screen max-w-[1440px] mx-auto px-4 py-16 text-frame-1 dark:text-frame-9;
+  @apply min-h-screen max-w-[1440px] mx-auto px-4 py-20 text-frame-1 dark:text-frame-9;
 }
 /* .section-styles {
   @apply min-h-[calc(100vh-64px)] max-w-[1440px] mx-auto px-4 py-16;

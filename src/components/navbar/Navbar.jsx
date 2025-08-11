@@ -13,6 +13,7 @@ const navLinks = [
   { id: "about", label: "About" },
   { id: "projects", label: "Projects" },
   { id: "skills", label: "Skills" },
+  { id: "contact", label: "Contact" },
 ];
 
 const socialLinks = [

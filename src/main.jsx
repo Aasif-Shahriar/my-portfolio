@@ -9,7 +9,7 @@ import ThemeProvider from "./provider/theme-provider/ThemeProvider.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <ThemeProvider>
-      <RouterProvider router={router} />,
+      <RouterProvider router={router} />
     </ThemeProvider>
   </StrictMode>
 );
