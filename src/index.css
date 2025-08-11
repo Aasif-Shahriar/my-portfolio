@@ -21,10 +21,23 @@ body {
 }
 
 .section-styles {
-  @apply min-h-[calc(100vh-64px)] max-w-[1440px] mx-auto px-4;
+  @apply min-h-screen max-w-[1440px] mx-auto px-4 py-16;
+}
+/* .section-styles {
+  @apply min-h-[calc(100vh-64px)] max-w-[1440px] mx-auto px-4 py-16;
+} */
+
+* {
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+
+.btn-outline{
+  @apply border border-frame-3 dark:border-frame-6 rounded flex items-center gap-2 font-semibold transform hover:scale-105 transition-all duration-200 text-frame-2 dark:text-frame-8 cursor-pointer
+}
+.btn-primary{
+  @apply bg-frame-2 text-frame-9 dark:bg-frame-9 dark:text-frame-1 rounded flex items-center gap-2 font-semibold transform hover:scale-105 transition-all duration-200 cursor-pointer
 }
 
 /* .custom-nav-links {
   @apply text-lg font-medium  text-frame-5 hover:text-frame-9 cursor-pointer transition  duration-300;
 } */
-
