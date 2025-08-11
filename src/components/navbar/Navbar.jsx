@@ -74,7 +74,7 @@ const Navbar = () => {
                 </li>
                 <li className="text-frame-3 hover:text-blue-500 dark:text-frame-6  text-xl transform hover:scale-110 transition duration-300">
                   <a
-                    href="https://www.linkedin.com/in/asif-shahriar-465803322"
+                    href="https://www.linkedin.com/in/asif-shahriar01"
                     target="_blank"
                   >
                     <FiLinkedin />
@@ -114,8 +114,8 @@ const Navbar = () => {
             initial={{ y: -20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -20, opacity: 0 }}
-            transition={{duration:0.3,ease:'easeInOut'}}
-            className="fixed top-16 left-0 w-full h-[calc(100vh-64px)] z-50 bg-frame-9/30 dark:bg-frame-1/30 backdrop-blur-md text-frame-1 dark:text-frame-9"
+            transition={{ duration: 0.3, ease: "easeInOut" }}
+            className="fixed top-16 left-0 w-full h-[calc(100vh-64px)] z-50 bg-frame-9/80 dark:bg-frame-1/80 backdrop-blur-md text-frame-1 dark:text-frame-9"
           >
             <div className="w-full h-full flex flex-col justify-center items-center py-10 space-y-10">
               <ul className="flex flex-col gap-6">
@@ -133,10 +133,10 @@ const Navbar = () => {
                     onSetActive={() => setActiveSection(id)}
                   >
                     <span
-                      className={`text-xl font-semibold  ${
+                      className={`text-xl font-semibold ${
                         activeSection === id
                           ? "text-frame-1 dark:text-frame-9"
-                          : "text-frame-4 dark:text-frame-6"
+                          : "text-frame-3 dark:text-frame-4"
                       }`}
                     >
                       {label}
@@ -144,26 +144,28 @@ const Navbar = () => {
                   </Link>
                 ))}
               </ul>
+
               <ul className="flex items-center justify-center gap-3">
-                <li className="text-frame-3 hover:text-frame-1 dark:text-frame-6 dark:hover:text-frame-9 text-xl transform hover:scale-110 transition duration-300">
+                <li className="text-frame-5 hover:text-frame-1 dark:text-frame-4 dark:hover:text-frame-9 text-xl transform hover:scale-110 transition duration-300">
                   <a href="https://github.com/Aasif-Shahriar" target="_blank">
                     <FiGithub />
                   </a>
                 </li>
-                <li className="text-frame-3 hover:text-blue-500 dark:text-frame-6  text-xl transform hover:scale-110 transition duration-300">
+                <li className="text-frame-5 hover:text-blue-500 dark:text-frame-4 dark:hover:text-blue-400 text-xl transform hover:scale-110 transition duration-300">
                   <a
-                    href="https://www.linkedin.com/in/asif-shahriar-465803322"
+                    href="https://www.linkedin.com/in/asif-shahriar01"
                     target="_blank"
                   >
                     <FiLinkedin />
                   </a>
                 </li>
-                <li className="text-frame-3 hover:text-frame-1 dark:text-frame-6 dark:hover:text-frame-9 text-xl transform hover:scale-110 transition duration-300">
+                <li className="text-frame-5 hover:text-frame-1 dark:text-frame-4 dark:hover:text-frame-9 text-xl transform hover:scale-110 transition duration-300">
                   <a href="https://x.com/Asif_Al_Azad201" target="_blank">
                     <FaXTwitter />
                   </a>
                 </li>
               </ul>
+
               <ThemeToggle />
               <div className="flex items-center justify-center">
                 <ResumeButton />
