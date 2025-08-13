@@ -1,6 +1,8 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
+import { IoMdArrowForward } from "react-icons/io";
+import { FaRegEye } from "react-icons/fa";
 
 const ProjectCard = () => {
   const [projects, setProjects] = useState([]);
@@ -50,6 +52,7 @@ const ProjectCard = () => {
                   whileTap={{ scale: 0.95 }}
                 >
                   Live Demo
+                  
                 </motion.a>
                 <motion.a
                   href={project.sourceCode}
@@ -117,6 +120,7 @@ const ProjectCard = () => {
                 whileTap={{ scale: 0.95 }}
               >
                 Live Demo
+                <IoMdArrowForward size={18} />
               </motion.a>
               <motion.a
                 href={project.sourceCode}
@@ -127,6 +131,7 @@ const ProjectCard = () => {
                 whileTap={{ scale: 0.95 }}
               >
                 View Code
+                <FaRegEye size={18} />
               </motion.a>
             </div>
           </motion.div>

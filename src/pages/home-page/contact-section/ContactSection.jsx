@@ -23,7 +23,7 @@ const ContactSection = () => {
           <div className="col-span-2">
             <SocialCard />
           </div>
-          <div  className="col-span-3">
+          <div className="col-span-3">
             <ContactForm />
           </div>
         </div>

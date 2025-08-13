@@ -10,23 +10,23 @@ const SocialCard = () => {
     {
       icon: <MdOutlineEmail />,
       label: "Email",
-      value: "hello@asifazad.dev",
-      href: "mailto:hello@asifazad.dev",
-      color: "hover:text-blue-400",
+      value: "asifshahriar247@gmail.com",
+      href: "mailto:asifshahriar247@gmail.com",
+      // color: "hover:text-blue-400",
     },
     {
       icon: <IoCallOutline />,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
-      color: "hover:text-green-400",
+      value: "(+88) 01868-381701",
+      href: "tel:+8801838381701",
+      // color: "hover:text-green-400",
     },
     {
       icon: <IoLocationOutline />,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Dhaka, Bangladesh",
       href: "#",
-      color: "hover:text-red-400",
+      // color: "hover:text-red-400",
     },
   ];
   const socialLinks = [
@@ -34,7 +34,7 @@ const SocialCard = () => {
       icon: <FiGithub />,
       href: "https://github.com/Aasif-Shahriar",
       label: "GitHub",
-      color: "hover:text-gray-300",
+      color: "dark:hover:text-frame-7 hover:text-frame-3",
     },
     {
       icon: <FiLinkedin />,
@@ -46,7 +46,7 @@ const SocialCard = () => {
       icon: <FaXTwitter />,
       href: "https://x.com/Asif_Al_Azad201",
       label: "LinkedIn",
-      color: "hover:text-gray-400",
+      color: "hover:text-frame-4 dark:hover:text-frame-6",
     },
   ];
 
@@ -60,7 +60,7 @@ const SocialCard = () => {
     >
       {/* Contact Methods */}
       <div className="space-y-8">
-        <h3 className="text-2xl font-semibold text-gray-100 mb-6">
+        <h3 className="text-2xl font-semibold text-frame-1 dark:text-frame-9 mb-6">
           Get In Touch
         </h3>
         {contactInfo.map((info, index) => {
@@ -68,19 +68,25 @@ const SocialCard = () => {
             <motion.a
               key={info.label}
               href={info.href}
-              className={`group flex items-center gap-4 p-4 bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-700/50 hover:border-gray-600/50 transition-all duration-300 ${info.color}`}
+              className={`group flex items-center gap-4 p-4 bg-frame-8/50 dark:bg-frame-2/50 backdrop-blur-sm rounded-xl border border-frame-7/50 dark:border-frame-3/50 hover:border-frame-6/50 dark:hover:border-frame-4/50 transition-all duration-300`}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 + index * 0.1 }}
               viewport={{ once: true }}
               whileHover={{ x: 5, scale: 1.02 }}
             >
-              <div className="p-3 bg-gray-700/50 rounded-lg group-hover:bg-gray-600/50 transition-colors duration-300">
-                <span className="w-5 h-5 text-gray-300">{info.icon}</span>
+              <div className="p-3 bg-frame-7/50 dark:bg-frame-3/50 rounded-lg group-hover:bg-frame-6/50 dark:group-hover:bg-frame-4/50 transition-colors duration-300">
+                <span className="w-5 h-5 text-frame-3 dark:text-frame-7">
+                  {info.icon}
+                </span>
               </div>
               <div>
-                <h4 className="text-gray-200 font-medium">{info.label}</h4>
-                <p className="text-gray-400 text-sm">{info.value}</p>
+                <h4 className="text-frame-2 dark:text-frame-8 font-medium">
+                  {info.label}
+                </h4>
+                <p className="text-frame-4 dark:text-frame-6 text-sm">
+                  {info.value}
+                </p>
               </div>
             </motion.a>
           );
@@ -89,7 +95,9 @@ const SocialCard = () => {
 
       {/* Social Links */}
       <div>
-        <h3 className="text-xl font-semibold text-gray-100 mb-6">Follow Me</h3>
+        <h3 className="text-xl font-semibold text-frame-1 dark:text-frame-9 mb-6">
+          Follow Me
+        </h3>
         <div className="flex gap-4">
           {socialLinks.map((social, index) => {
             return (
@@ -98,7 +106,7 @@ const SocialCard = () => {
                 href={social.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`p-4 bg-gray-800/50 backdrop-blur-sm rounded-xl border border-gray-700/50 hover:border-gray-600/50 text-gray-400 transition-all duration-300 ${social.color}`}
+                className={`p-4 bg-frame-8/50 dark:bg-frame-2/50 backdrop-blur-sm rounded-xl border border-frame-7/50 dark:border-frame-3/50 hover:border-frame-6/50 dark:hover:border-frame-4/50 text-frame-4 dark:text-frame-6 transition-all duration-300 ${social.color}`}
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.4, delay: 0.8 + index * 0.1 }}

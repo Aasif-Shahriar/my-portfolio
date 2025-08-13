@@ -1,67 +1,90 @@
 [
   {
-    "icon": "SiHtml5",
-    "skill": "HTML",
+    "skill": "HTML5",
     "color": "#E34F26"
   },
   {
-    "icon": "SiTailwindcss",
+    "skill": "CSS3",
+    "color": "#1572B6"
+  },
+  {
     "skill": "Tailwind CSS",
     "color": "#38B2AC"
   },
   {
-    "icon": "SiJavascript",
     "skill": "JavaScript",
     "color": "#F7DF1E"
   },
   {
-    "icon": "SiReact",
     "skill": "React",
     "color": "#61DAFB"
   },
   {
-    "icon": "SiFirebase",
-    "skill": "Firebase",
-    "color": "#FFCA28"
-  },
-  {
-    "icon": "SiNodedotjs",
     "skill": "Node.js",
     "color": "#339933"
   },
   {
-    "icon": "SiExpress",
-    "skill": "Express",
+    "skill": "Express.js",
     "color": "#000000"
   },
   {
-    "icon": "SiMongodb",
     "skill": "MongoDB",
     "color": "#47A248"
   },
   {
-    "icon": "SiAxios",
-    "skill": "Axios",
-    "color": "#5A29E4"
+    "skill": "Firebase",
+    "color": "#FFCA28"
   },
   {
-    "icon": "SiReactquery",
     "skill": "TanStack Query",
     "color": "#FF4154"
   },
   {
-    "icon": "SiGithub",
+    "skill": "Axios",
+    "color": "#5A29E4"
+  },
+  {
+    "skill": "Git",
+    "color": "#F05032"
+  },
+  {
     "skill": "GitHub",
     "color": "#181717"
   },
   {
-    "icon": "SiFramer",
+    "skill": "JWT",
+    "color": "#000000"
+  },
+  {
+    "skill": "Chat GPT",
+    "color": "#412991"
+  },
+  {
     "skill": "Framer Motion",
     "color": "#0055FF"
   },
   {
-    "icon": "SiReacthookform",
+    "skill": "DaisyUI",
+    "color": "#5A0EF0"
+  },
+  {
+    "skill": "Canva",
+    "color": "#00C4CC"
+  },
+  {
     "skill": "React Hook Form",
     "color": "#EC5990"
+  },
+  {
+    "skill": "Netlify",
+    "color": "#00C7B7"
+  },
+  {
+    "skill": "Vercel",
+    "color": "#000000"
+  },
+  {
+    "skill": "Vite",
+    "color": "#646CFF"
   }
 ]

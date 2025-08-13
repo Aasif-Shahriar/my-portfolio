@@ -32,20 +32,21 @@ body {
   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
 }
 
-.btn-outline{
-  @apply border border-frame-3 dark:border-frame-6 rounded flex items-center gap-2 font-semibold transform hover:scale-105 transition-all duration-200 text-frame-2 dark:text-frame-8 cursor-pointer
+.btn-outline {
+  @apply border border-frame-3 dark:border-frame-6 rounded flex items-center gap-2 font-semibold transform hover:scale-105 transition-all duration-200 text-frame-2 dark:text-frame-8 cursor-pointer;
 }
-.btn-primary{
-  @apply bg-frame-2 text-frame-9 dark:bg-frame-9 dark:text-frame-1 rounded flex items-center gap-2 font-semibold transform hover:scale-105 transition-all duration-200 cursor-pointer
+.btn-primary {
+  @apply bg-frame-2 text-frame-9 dark:bg-frame-9 dark:text-frame-1 rounded flex items-center gap-2 font-semibold transform hover:scale-105 transition-all duration-200 cursor-pointer;
 }
 
 /* .custom-nav-links {
   @apply text-lg font-medium  text-frame-5 hover:text-frame-9 cursor-pointer transition  duration-300;
 } */
 
-.section-title{
-  @apply text-2xl md:text-5xl font-bold mb-4 text-frame-1 dark:text-frame-9
+.section-title {
+  @apply text-2xl md:text-5xl font-bold mb-4 text-frame-1 dark:text-frame-9;
 }
-.section-sub-title{
-  @apply mt-6 mb-12 max-w-3xl mx-auto text-frame-3 dark:text-frame-7 text-center
+.section-sub-title {
+  @apply mt-6 mb-12 max-w-3xl mx-auto text-frame-3 dark:text-frame-7 text-center;
 }
+
