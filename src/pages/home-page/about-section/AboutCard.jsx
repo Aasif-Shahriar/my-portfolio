@@ -3,6 +3,7 @@ import { BsLightningCharge } from "react-icons/bs";
 import { FaLaptop } from "react-icons/fa";
 import { GoDatabase } from "react-icons/go";
 import { IoCode } from "react-icons/io5";
+import { motion } from "framer-motion";
 
 const AboutCard = () => {
   const cardInfo = [
@@ -27,22 +28,35 @@ const AboutCard = () => {
       info: "Ensuring fast, efficient applications with best practices and modern tools",
     },
   ];
+
+  const cardVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+  };
+
   return (
     <>
       {cardInfo.map((item, index) => (
-        <div
+        <motion.div
           key={index}
           className="border border-frame-1/15 dark:border-frame-9/15 p-4 flex gap-3 bg-frame-7/50 dark:bg-frame-3/50 rounded-xl"
+          variants={cardVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
         >
           <div className="w-10 h-10 bg-frame-7 dark:bg-frame-3 text-frame-2 dark:text-frame-8 shadow-md p-2 rounded-xs flex items-center justify-center">
             <span className="text-xl">{item.icon}</span>
           </div>
-
           <div>
-            <h3 className="text-lg font-medium text-frame-1 dark:text-frame-9">{item.skill}</h3>
-            <p className="text-sm text-frame-3 dark:text-frame-7">{item.info}</p>
+            <h3 className="text-lg font-medium text-frame-1 dark:text-frame-9">
+              {item.skill}
+            </h3>
+            <p className="text-sm text-frame-3 dark:text-frame-7">
+              {item.info}
+            </p>
           </div>
-        </div>
+        </motion.div>
       ))}
     </>
   );
