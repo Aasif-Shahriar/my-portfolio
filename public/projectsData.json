@@ -4,7 +4,7 @@
 "projectType": "Full-Stack Forum Application",
 "projectTitle": "ThinkHub - Developer Forum",
 "projectInfo": "A Reddit/Dev.to inspired MERN forum for developers to share ideas, ask questions, and collaborate. Features include posts, comments, voting, reports, membership, admin dashboard, and JWT-secured authentication.",
-"techStack": ["MongoDB", "Express.js", "React.js", "Node.js", "Firebase", "JWT", "Tailwind CSS", "TanStack Query"],
+"techStack": ["MongoDB", "Express.js", "React.js", "Node.js", "Firebase", "JWT", "Tailwind CSS", "TanStack Query","Axios"],
 "liveUrl": "https://think-hub.netlify.app",
 "sourceCode": "https://github.com/Aasif-Shahriar/think-hub-client"
 },
@@ -22,7 +22,7 @@
   "projectType": "React Web Application",
   "projectTitle": "AluWish",
   "projectInfo": "AluWish is a MERN-based wishlist and gift-tracking application that allows users to create, share, and manage their wishlist items. It supports user authentication, image uploads, category filters, and responsive UI for seamless use across devices.",
-  "techStack": ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS", "Firebase Auth"],
+  "techStack": ["React.js","Tailwind CSS", "DaisyUI","Responsive Design"],
   "liveUrl": "https://alu-wish.netlify.app",
   "sourceCode": "https://github.com/Aasif-Shahriar/alu-wish-client"
 },
@@ -31,7 +31,7 @@
 "projectType": "CRUD Application",
 "projectTitle": "Plant Care Tracker",
 "projectInfo": "A simple MERN CRUD app to track and manage plant care routines. Users can add, edit, delete, and view plant details with theme support and responsive design.",
-"techStack": ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS", "DaisyUI"],
+"techStack": ["MongoDB", "Express.js", "React.js", "Node.js", "Tailwind CSS", "DaisyUI","Firebase Auth"],
 "liveUrl": "https://plant-care-tracker-client.netlify.app",
 "sourceCode": "https://github.com/Aasif-Shahriar/plant-care-tracker-client"
 }

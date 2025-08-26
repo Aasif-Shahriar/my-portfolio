@@ -54,26 +54,28 @@ const About = () => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
         >
-          <h1 className="text-2xl md:text-5xl font-bold mb-4">About Me</h1>
+          <h1 className="text-3xl md:text-5xl font-bold mb-4">About Me</h1>
           <GradientBar />
           <div className="space-y-4 mt-5 text-frame-3 dark:text-frame-7">
             <motion.p variants={paragraphVariants}>
-              Hi, I'm{" "}
-              <span className="text-frame-1 dark:text-frame-9 font-medium">
-                Asif Azad
-              </span>{" "}
-              — a passionate MERN Stack Developer with a knack for building
-              clean, responsive, and interactive web applications.
+              I'm a frontend developer who builds modern, user-friendly
+              websites. My journey into tech started from a curiosity about how
+              websites work, which I developed while managing traffic for a
+              blog. This passion led me to fully commit to web development in
+              2023.
             </motion.p>
             <motion.p variants={paragraphVariants}>
-              With expertise across the full development stack, I create
-              seamless digital experiences that not only look great but perform
-              exceptionally.
+              I'm proficient in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>,
+              and I've built <b>four full-stack projects</b>, including an
+              e-commerce site with <b>Next.js</b>.
             </motion.p>
             <motion.p variants={paragraphVariants}>
-              When I'm not coding, you'll find me exploring new technologies,
-              contributing to open-source projects, or sharing knowledge with
-              the developer community.
+              My goal is to become a Tech Team Lead. I'm currently deepening my
+              expertise in my core skills with a plan to master{" "}
+              <b>TypeScript</b> and
+              <b>data structures</b> next. I'm eager to join a great team where
+              I can apply my skills, learn from others, and grow into a
+              leadership role.
             </motion.p>
           </div>
 
