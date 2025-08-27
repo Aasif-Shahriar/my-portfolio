@@ -65,15 +65,17 @@ const About = () => {
               2023.
             </motion.p>
             <motion.p variants={paragraphVariants}>
-              I'm proficient in <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>,
-              and I've built <b>four full-stack projects</b>, including an
-              e-commerce site with <b>Next.js</b>.
+              I have learned <strong>MERN Stack Development</strong>, and I am proficient in
+              Frontend technology like <b>React</b>, <b>JavaScript</b>, <b>Tailwind</b>, <b>Firebase</b>,
+              and some other libraries and frameworks. I have built some
+              full-stack projects with these technologies and also built an
+              <b> e-commerce</b> website using <strong>Next.js</strong>.
             </motion.p>
             <motion.p variants={paragraphVariants}>
               My goal is to become a Tech Team Lead. I'm currently deepening my
               expertise in my core skills with a plan to master{" "}
               <b>TypeScript</b> and
-              <b>data structures</b> next. I'm eager to join a great team where
+              <b> data structures</b> next. I'm eager to join a great team where
               I can apply my skills, learn from others, and grow into a
               leadership role.
             </motion.p>
