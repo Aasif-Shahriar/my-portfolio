@@ -44,7 +44,7 @@ const SocialCard = () => {
     },
     {
       icon: <FaXTwitter />,
-      href: "https://x.com/Asif_Al_Azad201",
+      href: "https://x.com/asif_shahriar1",
       label: "LinkedIn",
       color: "hover:text-frame-4 dark:hover:text-frame-6",
     },

@@ -32,7 +32,7 @@ const socialLinks = [
   {
     id: "twitter",
     icon: <FaXTwitter />,
-    url: "https://x.com/Asif_Al_Azad201",
+    url: "https://x.com/asif_shahriar1",
     hoverColor: "text-frame-1 dark:text-frame-9",
   },
 ];
