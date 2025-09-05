@@ -1,5 +1,5 @@
 import React from "react";
-import { BsLightningCharge } from "react-icons/bs";
+// import { BsLightningCharge } from "react-icons/bs";
 import { FaLaptop } from "react-icons/fa";
 import { GoDatabase } from "react-icons/go";
 import { IoCode } from "react-icons/io5";
@@ -22,11 +22,11 @@ const AboutCard = () => {
       skill: "Full Stack Integration",
       info: "Seamlessly connecting frontend and backend for complete web applications",
     },
-    {
-      icon: <BsLightningCharge />,
-      skill: "Performance Optimization",
-      info: "Ensuring fast, efficient applications with best practices and modern tools",
-    },
+    // {
+    //   icon: <BsLightningCharge />,
+    //   skill: "Performance Optimization",
+    //   info: "Ensuring fast, efficient applications with best practices and modern tools",
+    // },
   ];
 
   const cardVariants = {

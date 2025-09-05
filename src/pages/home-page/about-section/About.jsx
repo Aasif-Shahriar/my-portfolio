@@ -61,7 +61,7 @@ const About = () => {
               I'm a frontend developer who builds modern, user-friendly
               websites. My journey into tech started from a curiosity about how
               websites work, which I developed while managing traffic for a
-              blog. This passion led me to fully commit to web development in
+              blog website. This passion led me to fully commit to web development in
               2023.
             </motion.p>
             <motion.p variants={paragraphVariants}>
@@ -72,7 +72,7 @@ const About = () => {
               <b> e-commerce</b> website using <strong>Next.js</strong>.
             </motion.p>
             <motion.p variants={paragraphVariants}>
-              My goal is to become a Tech Team Lead. I'm currently deepening my
+              My goal is to become a <strong>Full-Stack Developer</strong>. I'm currently deepening my
               expertise in my core skills with a plan to master{" "}
               <b>TypeScript</b> and
               <b> data structures</b> next. I'm eager to join a great team where

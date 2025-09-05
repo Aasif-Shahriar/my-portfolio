@@ -65,7 +65,7 @@ const Hero = () => {
         >
           Asif{" "}
           <span className="text-frame-light-1 dark:text-frame-dark-1">
-            Azad
+            Shahriar
           </span>
         </motion.h1>
 
@@ -76,7 +76,7 @@ const Hero = () => {
           variants={textVariant}
           className="text-2xl md:text-4xl font-light mt-2"
         >
-          MERN Stack Developer
+         Front-End Developer
         </motion.h3>
 
         <motion.p
